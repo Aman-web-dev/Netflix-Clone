@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baloo+Bhai+2&family=Fasthand&family=Fuzzy+Bubbles&family=Lora:ital@1&family=Oswald:wght@200&family=Poppins:ital,wght@0,100;1,100&family=Raleway:ital,wght@1,500&family=Roboto:ital,wght@1,900&family=Rubik&display=swap');
+
+.banner{
+    width: 100%;
+    height: 700px;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.png);
+border-bottom:10px solid grey ;
+
+}
+
+
+.navbar{
+
+
+width: 100%;
+top: 0;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: transparent;
+
+}
+
+
+.navbar img{
+margin: 20px;
+height: 60px;
+width: 200px;
+background-color: transparent;
+
+}
+
+.language{
+
+    background-color: transparent;
+    margin-right:20px;
+    color: white;
+    font-weight: 500;
+    border: 1px solid white;
+    align-items: center;
+display: flex;
+}
+
+.signIn{
+
+ 
+   background-color: #E50914;
+    margin-right:20px;
+    color: white;
+    border: #E50914;
+}
+
+
+.buttn{
+
+height: 40px;
+width: 100px;
+border-radius: 2px;  
+font-weight: 500;
+cursor: pointer;
+  
+}
+
+.buttn span,.buttn p{
+    align-items: center;
+    background-color: transparent;
+    margin: 2px;
+}
+
+.navbar ul{
+
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.navbar ul li{
+    background-color: transparent;
+}
+
+
+.search{
+    background-color: transparent;
+    color: white;
+   margin: 100px 200px 200px 300px;
+   align-items: center;
+   text-align: center;
+}
+
+.search h1, .search h3, .search h4 , .email{
+
+background-color: transparent;
+margin-top:50px ;
+
+
+}
+
+
+.email{
+   
+width: 665px;
+height: 55px;
+align-items: center;
+display: flex;
+overflow: hidden;
+border-radius: 4px;
+margin-left: 130px;
+
+}
+
+.email input{
+
+    width: 80%;
+    border-radius:4px;
+    height: 100%;
+    background-color: white;
+    font-size: larger;
+    border: none;
+}
+/* .email input ::placeholder{
+
+    height: 30%;
+    width: 40%;
+    justify-content: center;
+} */
+
+
+.email button{
+
+    height: 56px;
+    width: 22%;
+    background-color: #E50914;
+    color: white;
+    border-radius: 4px;
+
+}
+.email button p{
+
+background-color: transparent;
+}
+
+#s{ border: 0;}
+/* ______________________________________________________________________________________________________________________ */
+
+.blaster1, .blaster2,.blaster3,.blaster4{
+    width: 100%;
+    height: 500px;
+    color: white;
+   position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom:10px solid gray ;
+}
+
+
+.text{
+
+    margin-left: 50px;
+    text-align: center;
+}
+
+.text h1 h4{
+
+    margin-bottom: 20px;
+}
+
+
+.video{
+    height: 400px;
+    width: 500px;
+  
+   align-items: center;
+   justify-content: center;
+   display: flex;
+ margin-left: 100px;
+    z-index: 20;
+
+}
+
+.video .play{
+
+    height: 320px;
+    width: 400px;  
+    margin: 20px 20px 0 0 ;
+    position: absolute;
+   object-fit: cover;
+  z-index: -1;
+      
+
+}
+
+.video img{
+
+position: relative;
+height: 100%;
+width: 100%;
+z-index: 2;
+background-color: transparent;
+
+}
+
+.title{
+
+width: 50%;
+height: 200px;
+align-items: center;
+justify-content: center;
+margin-left:200px ;
+margin-top: 150px;
+text-align: center;
+
+}
+
+
+
+.title :first-child{
+    font-weight: 600;
+    font-size: 50px;
+    color: #E50914;    
+}
+
+.title :last-child{
+    font-weight: 200;
+    font-size: 20px;
+      
+}
+
+.picture{
+    height: 320px;
+    width: 320px;
+  background-image: url(ypoooo.png);
+  background-size: cover;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+ margin-left: 100px;
+    z-index: 20;
+
+}
+
+
+.download{
+
+
+    width: 370px;
+    height: 90px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 250px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border: 2px solid gray;
+    background-color: rgb(11,11,11);
+    overflow: hidden;
+}
+
+.download .banner0{
+
+  
+    height: 80px;
+    width: 70px;
+    margin-left: 5px;
+}
+
+.download .downloadgif{
+
+    height: 75px;
+    width: 150px;
+    background-color: transparent;
+    scale: 1;
+    background-color: black;
+    overflow: hidden;
+
+}
+
+.download p{
+
+font-size: small;
+color: rgb(11, 139, 243);
+margin-left: 20px;
+background-color: rgb(11,11,11);
+
+
+}
+
+
+.textTitle{
+
+    width: 570px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-left:100px ;
+    margin-top: 150px;
+    text-align: center;
+    
+    
+}
+
+.textTitle :first-child{
+
+    font-weight: 600;
+    font-size: 50px;
+    color: #E50914;  
+
+}
+
+.textTitle :last-child{
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+      
+    
+    }
+
+
+    .picture12212{
+
+        height: 380px;
+        width: 500px;
+      
+       align-items: center;
+       justify-content: center;
+       display: flex;
+     margin-left: 200px;
+    z-index: 20;
+       
+    }
+
+ .picture12212 .player2{
+
+    height: 200px;
+    width: 300px;  
+    margin: 0px 5px 100px 0 ;
+    position: absolute;
+   object-fit: cover;
+  z-index: -1;
+  scale: 1.1;
+      
+   
+ }
+
+ .picture12212 .mac{
+
+
+    position: relative;
+height: 100%;
+width: 100%;
+z-index: 2;
+background-color: transparent;
+ }
+
+ 
