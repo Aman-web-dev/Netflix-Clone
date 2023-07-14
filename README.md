@@ -1,3 +1,3 @@
 # netflix.github.io
 
-i made This Webisyte Using Pure HTML ,CSS and Js 
+I made This Website Using Pure HTML,CSS, and Js 
